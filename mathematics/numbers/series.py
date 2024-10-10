@@ -1,6 +1,8 @@
-def sum(list):
-    return sum(list)
+def sum(list=None):
+    return __builtins__['sum'](list)
 
-def average(list):
-    return (sum(list) // len(list))
 
+def average(list = None):
+    # ave = __builtins__['sum'](list) / len(list)
+    # return ave
+    return sum(list) / len(list)

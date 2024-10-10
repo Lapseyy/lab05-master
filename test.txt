@@ -1,38 +1,4 @@
-..EE...F........
-======================================================================
-ERROR: test_list_int (__main__.Test03_mathematics_numbers_series_sum)
-*** Test03 **** GIVEN: import mathematics.numbers.series as series *** FUNCTION CALL: series.sum(list = [1, 2, 3, 4, 5]) *** EXPECT: 15 ***
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/Users/edmarcksosa/Documents/Spring 2024/Python/lab05/lab05-master/test.py", line 30, in test_list_int
-    self.assertEqual(15, series.sum(list = [1, 2, 3, 4, 5]))
-  File "/Users/edmarcksosa/Documents/Spring 2024/Python/lab05/lab05-master/mathematics/numbers/series.py", line 2, in sum
-    return sum(list)
-  File "/Users/edmarcksosa/Documents/Spring 2024/Python/lab05/lab05-master/mathematics/numbers/series.py", line 2, in sum
-    return sum(list)
-  File "/Users/edmarcksosa/Documents/Spring 2024/Python/lab05/lab05-master/mathematics/numbers/series.py", line 2, in sum
-    return sum(list)
-  [Previous line repeated 978 more times]
-RecursionError: maximum recursion depth exceeded
-
-======================================================================
-ERROR: test_list_int (__main__.Test04_mathematics_numbers_series_average)
-*** Test04 **** GIVEN: import mathematics.numbers.series as series *** FUNCTION CALL: series.average(list = [1, 2, 3, 4, 5]) *** EXPECT: 3.0 ***
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/Users/edmarcksosa/Documents/Spring 2024/Python/lab05/lab05-master/test.py", line 39, in test_list_int
-    self.assertEqual(3.0, series.average(list = [1, 2, 3, 4, 5]))
-  File "/Users/edmarcksosa/Documents/Spring 2024/Python/lab05/lab05-master/mathematics/numbers/series.py", line 5, in average
-    return (sum(list) // len(list))
-  File "/Users/edmarcksosa/Documents/Spring 2024/Python/lab05/lab05-master/mathematics/numbers/series.py", line 2, in sum
-    return sum(list)
-  File "/Users/edmarcksosa/Documents/Spring 2024/Python/lab05/lab05-master/mathematics/numbers/series.py", line 2, in sum
-    return sum(list)
-  File "/Users/edmarcksosa/Documents/Spring 2024/Python/lab05/lab05-master/mathematics/numbers/series.py", line 2, in sum
-    return sum(list)
-  [Previous line repeated 977 more times]
-RecursionError: maximum recursion depth exceeded
-
+.......F........
 ======================================================================
 FAIL: test_list_int (__main__.Test08_mathematics_numbers_simple_division)
 *** Test08 **** GIVEN: import mathematics.numbers.simple as simple *** FUNCTION CALL: simple.division(left = 10, right = 4) *** EXPECT: 2.5 ***
@@ -43,6 +9,6 @@ Traceback (most recent call last):
 AssertionError: 2.5 != 2
 
 ----------------------------------------------------------------------
-Ran 16 tests in 0.005s
+Ran 16 tests in 0.002s
 
-FAILED (failures=1, errors=2)
+FAILED (failures=1)
