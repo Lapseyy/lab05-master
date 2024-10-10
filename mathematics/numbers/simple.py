@@ -8,4 +8,4 @@ def multiplication(left, right):
     return left * right
 
 def division(left, right):
-    return left // right
+    return left / right

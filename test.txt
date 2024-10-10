@@ -1,14 +1,5 @@
-.......F........
-======================================================================
-FAIL: test_list_int (__main__.Test08_mathematics_numbers_simple_division)
-*** Test08 **** GIVEN: import mathematics.numbers.simple as simple *** FUNCTION CALL: simple.division(left = 10, right = 4) *** EXPECT: 2.5 ***
+................
 ----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/Users/edmarcksosa/Documents/Spring 2024/Python/lab05/lab05-master/test.py", line 75, in test_list_int
-    self.assertEqual(2.5, simple.division(left = 10, right = 4))
-AssertionError: 2.5 != 2
+Ran 16 tests in 0.001s
 
-----------------------------------------------------------------------
-Ran 16 tests in 0.002s
-
-FAILED (failures=1)
+OK
